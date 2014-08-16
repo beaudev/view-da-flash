@@ -20,10 +20,10 @@ curl -SsL https://raw.githubusercontent.com/beaudev/view-da-flash/master/view_da
 Use it as much as you want, as long as you keep using the same bash instance.
 ```
 # view currently loaded flash videos :
-view_da_flash
+view_daflash
 
 # save currently loaded flash videos in Downloads directory (by default)
-view_da_flash -s 
+view_daflash -s 
 ```
 
 ## Next steps
