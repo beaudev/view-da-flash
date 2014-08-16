@@ -1,9 +1,10 @@
-#!/bin/bash -x
+#!/bin/bash
  
 # That function could be added to your bash_profile for example
  # send all the current videos loaded in your chromium browser or in Firefox into a vlc instance byt calling at any time "view_daflash"
  
 view_daflash(){
+	SAVE_IT=
 	com_func_file=$( dirname "${BASH_SOURCE[0]}" )/common_functions.sh
 	if [ ! -f ${com_func_file} ]; then
 		curl -sSL https://raw.github.com/jmeyo/CommonBashScripts/master/common_functions.sh >${com_func_file}	
