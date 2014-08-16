@@ -1,7 +1,7 @@
 View Da Flash
 =============
 
-Simple script to view embedded flash in a better player (talking here about VLC of course). THe great thing about that, is you don't fight anymore with the auto lock functionnality, you can benefit of the VLC user friendly interface, even if the video is not fully loaded. Also, it's possible to save it quite easily. 
+Simple script to view embedded flash in a better player (talking here about VLC of course). The great thing about that, is you don't fight anymore with the auto lock functionnality, you can benefit of the VLC user friendly interface, even if the video is not fully loaded. Also, it's possible to save it quite easily. 
 
 Work on *Nix, mainly used on Ubuntu tho.
 Works with Firefox and Chromium as long as you use the Adobe flash plugin.
@@ -10,10 +10,15 @@ Works with Firefox and Chromium as long as you use the Adobe flash plugin.
 source the file, or use it with the bash-profile project.
 
 
-###OneLiner
+###OneLiner setup and Usage
+
+Get it from github and source it
 ```
 curl -SsL https://raw.githubusercontent.com/beaudev/view-da-flash/master/view_da_flash.sh>source
+```
 
+Use it as much as you want, as long as you keep using the same bash instance.
+```
 # view currently loaded flash videos :
 view_da_flash
 
