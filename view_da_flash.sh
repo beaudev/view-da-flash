@@ -44,5 +44,7 @@ view_daflash(){
 		else
 			vlc $flash_vids || cecho "Sorry. No Flash Video Found.." $red
 		fi
+	else 
+		cecho "Sorry. No Flash Video Found.." $red
 	fi 
 }
