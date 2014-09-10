@@ -14,7 +14,7 @@ source the file, or use it with the bash-profile project.
 
 Get it from github and source it
 ```
-curl -SsL https://raw.githubusercontent.com/beaudev/view-da-flash/master/view_da_flash.sh>source
+curl -SsL https://raw.githubusercontent.com/beaudev/view-da-flash/master/view_da_flash.sh| xargs source
 ```
 
 Use it as much as you want, as long as you keep using the same bash instance.
